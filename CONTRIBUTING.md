@@ -9,7 +9,7 @@ The most useful contributions are practical materials that help founders think m
 - Better note templates
 - Filled founder workflow examples
 - Interview, experiment, or review prompts
-- Chinese or English wording improvements
+- Clearer wording and structure
 - Obsidian, VS Code, Cursor, or AI agent usage notes
 
 ## What Makes A Good Contribution

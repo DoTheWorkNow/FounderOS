@@ -27,6 +27,5 @@ Use this checklist before publishing FounderOS as an open source repository.
 ## Nice To Have Later
 
 - [ ] Add screenshots from Obsidian or VS Code.
-- [ ] Add a Chinese README.
 - [ ] Add more example founder workflows.
 - [ ] Add issue templates for template suggestions and workflow examples.
