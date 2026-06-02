@@ -1,41 +1,37 @@
 # Contributing to FounderOS
 
-Thanks for helping improve FounderOS.
+FounderOS is a lightweight Markdown knowledge system, not a software application.
 
-This project is intentionally lightweight. The best contributions make founder thinking clearer, more evidence-driven, and easier to reuse.
+The most useful contributions are practical materials that help founders think more clearly and validate ideas faster.
 
-## Good Contributions
+## Useful Contributions
 
-- New or improved templates
-- Filled examples that show a realistic founder workflow
-- Better AI agent instructions
-- Obsidian workflow improvements
-- Translations
-- Documentation fixes
+- Better note templates
+- Filled founder workflow examples
+- Interview, experiment, or review prompts
+- Chinese or English wording improvements
+- Obsidian, VS Code, Cursor, or AI agent usage notes
 
-## Contribution Principles
+## What Makes A Good Contribution
 
-1. Keep it Markdown-first.
-2. Avoid tool lock-in unless clearly documented.
-3. Prefer practical founder workflows over abstract frameworks.
-4. Keep assumptions, evidence, and decisions separate.
-5. Make examples realistic enough to learn from.
+1. It is easy to copy and use.
+2. It keeps facts, judgments, and hypotheses separate.
+3. It helps a founder make a decision or run an experiment.
+4. It avoids adding process for its own sake.
+5. It stays Markdown-first.
 
-## Suggested Pull Request Format
+## Suggested Format
 
-```markdown
-## What changed
+When suggesting a new template or example, include:
 
-## Why it helps founders
-
-## Files changed
-
-## Screenshots or examples, if useful
-```
+- What it is for
+- Who would use it
+- Where it should live in the folder structure
+- A short filled example, if possible
 
 ## Style
 
 - Use clear headings.
-- Keep templates easy to copy.
-- Avoid jargon unless it is explained.
-- Prefer concrete prompts and examples.
+- Keep templates lightweight.
+- Prefer concrete prompts over abstract frameworks.
+- Preserve uncertainty when the idea is not validated yet.

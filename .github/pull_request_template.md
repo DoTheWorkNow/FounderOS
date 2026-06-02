@@ -1,12 +1,11 @@
-## What changed
+## What did you add or change?
 
 
-## Why it helps founders
+## Who is it for?
 
 
-## Files changed
+## Why is it useful?
 
 
-## Notes for reviewers
-
+## Notes
 

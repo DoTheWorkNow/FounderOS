@@ -145,18 +145,9 @@ Use `06-Founder-Notes/` for founder reflections, weekly reviews, decision logs, 
 5. Every serious idea should eventually become an experiment.
 6. Notes should help decisions, not become a private museum.
 
-## Roadmap
-
-- More filled examples for different founder workflows
-- Chinese-first templates
-- Obsidian setup guide
-- Interview note templates
-- Weekly founder review template
-- Lightweight release package for non-technical users
-
 ## Contributing
 
-Contributions are welcome. Useful contributions include better templates, stronger examples, founder workflows, AI agent instructions, translations, and Obsidian improvements.
+FounderOS is a Markdown knowledge system, so contributions are usually templates, examples, workflow notes, translations, or small wording improvements.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
