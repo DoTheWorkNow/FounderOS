@@ -1,0 +1,18 @@
+.DS_Store
+Thumbs.db
+
+# Editor and workspace noise
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Obsidian local state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+
+# Local exports
+exports/
+dist/
+tmp/
