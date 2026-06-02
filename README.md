@@ -1,10 +1,33 @@
 # FounderOS
 
-FounderOS is an open, Markdown-first operating system for founders to capture ideas, study markets, clarify customer problems, design products, and turn assumptions into experiments.
+[English](README.md) | [中文](README.zh-CN.md)
 
-Chinese version: `README.zh-CN.md`.
+FounderOS is an open, Markdown-first operating system for founders. It helps you capture ideas, clarify customer problems, study markets, design products, and turn assumptions into experiments.
 
-It is built for people who think with notes and want an AI-friendly workspace that keeps startup thinking grounded in evidence, not just inspiration.
+It is built for founders who want a lightweight knowledge base that works well with Obsidian, VS Code, Cursor, GitHub, and AI agents.
+
+## Why FounderOS
+
+Early-stage startup work is messy. Notes often mix inspiration, customer pain, market research, product ideas, and validation evidence in one place. That makes it hard to know what is real, what is assumed, and what should be tested next.
+
+FounderOS gives those thoughts a simple operating structure:
+
+```text
+idea -> problem -> market -> product -> business model -> experiment -> decision
+```
+
+The goal is not to create more documents. The goal is to make better founder decisions.
+
+## What You Can Do With It
+
+- Capture raw startup ideas without over-organizing too early
+- Turn vague ideas into clear customer problems
+- Separate facts, judgments, and hypotheses
+- Keep market research and competitor notes reusable
+- Design MVPs and product concepts from real pain points
+- Track business model assumptions before they become fake certainty
+- Run validation experiments with explicit success criteria
+- Let AI agents organize, question, and improve your founder thinking
 
 ## Who It Is For
 
@@ -13,22 +36,6 @@ It is built for people who think with notes and want an AI-friendly workspace th
 - Indie hackers organizing customer problems and experiments
 - Operators who want a lightweight alternative to heavy startup tooling
 - AI-assisted founders who want a structured knowledge base for agents
-
-## Core Idea
-
-Most startup notes get lost because they mix five different things:
-
-- raw ideas
-- real customer problems
-- market observations
-- product concepts
-- validation evidence
-
-FounderOS separates them so each thought can move forward:
-
-```text
-idea -> problem -> market -> product -> business model -> experiment -> decision
-```
 
 ## Folder Structure
 
@@ -53,10 +60,52 @@ FounderOS/
 ## Quick Start
 
 1. Clone or download this repository.
-2. Open the `FounderOS/` folder in Obsidian, VS Code, Cursor, or any Markdown editor.
+2. Open the folder in Obsidian, VS Code, Cursor, or any Markdown editor.
 3. Put unprocessed thoughts in `00-Inbox/`.
-4. When an idea becomes clearer, move it into the right folder using a template from `templates/`.
-5. Use `07-Experiments/` to turn assumptions into concrete validation work.
+4. Copy a template from `templates/` into the right folder.
+5. Use `07-Experiments/` to turn important assumptions into validation work.
+
+## Templates
+
+FounderOS includes reusable templates:
+
+| Template | Use it for |
+| --- | --- |
+| [idea.md](templates/idea.md) | Capturing a startup idea and its assumptions |
+| [problem.md](templates/problem.md) | Describing a real customer problem |
+| [market-research.md](templates/market-research.md) | Studying a market, category, or competitor landscape |
+| [business-model.md](templates/business-model.md) | Thinking through pricing, channels, revenue, and unit economics |
+| [experiment.md](templates/experiment.md) | Designing a validation experiment with success criteria |
+
+## Example Workflow
+
+See [examples/ai-study-planner](examples/ai-study-planner/) for a filled example.
+
+The example shows how one idea moves through the system:
+
+```text
+AI Study Planner
+├── idea.md
+├── problem.md
+├── market-research.md
+├── business-model.md
+└── experiment.md
+```
+
+This is the intended FounderOS rhythm: start with an idea, clarify the problem, understand the market, model the business, then test the riskiest assumption.
+
+## Working With AI Agents
+
+FounderOS is designed to be AI-friendly. The project-level agent instructions live in [AGENTS.md](AGENTS.md).
+
+You can ask an AI assistant to:
+
+- organize raw notes from `00-Inbox/`
+- turn an idea into testable hypotheses
+- extract customer problems from interview notes
+- draft experiments with measurable success standards
+- compare market research notes and identify open questions
+- suggest the next smallest validation action
 
 ## Recommended Workflow
 
@@ -81,51 +130,11 @@ Use:
 
 ### 4. Validate
 
-Use `07-Experiments/` to define:
-
-- the assumption being tested
-- the test method
-- the success standard
-- the result
-- the next decision
+Use `07-Experiments/` to define the assumption, test method, success standard, result, and next decision.
 
 ### 5. Review
 
 Use `06-Founder-Notes/` for founder reflections, weekly reviews, decision logs, and operating principles.
-
-## Templates
-
-Start from these files:
-
-- `templates/idea.md`
-- `templates/problem.md`
-- `templates/experiment.md`
-- `templates/market-research.md`
-- `templates/business-model.md`
-
-Copy a template into the right folder, rename it, and fill it out.
-
-## Example
-
-See `examples/ai-study-planner/` for a filled example of how one idea moves through the system:
-
-- idea
-- user problem
-- market research
-- business model
-- validation experiment
-
-## Working With AI Agents
-
-FounderOS is designed to be easy for AI agents to understand. The project-level agent instructions live in `AGENTS.md`.
-
-When using an AI assistant, you can ask it to:
-
-- organize raw notes from `00-Inbox/`
-- turn an idea into testable hypotheses
-- extract customer problems from interview notes
-- draft experiments with measurable success standards
-- compare market research notes and identify open questions
 
 ## Principles
 
@@ -136,19 +145,21 @@ When using an AI assistant, you can ask it to:
 5. Every serious idea should eventually become an experiment.
 6. Notes should help decisions, not become a private museum.
 
+## Roadmap
+
+- More filled examples for different founder workflows
+- Chinese-first templates
+- Obsidian setup guide
+- Interview note templates
+- Weekly founder review template
+- Lightweight release package for non-technical users
+
 ## Contributing
 
-Contributions are welcome. Useful contributions include:
+Contributions are welcome. Useful contributions include better templates, stronger examples, founder workflows, AI agent instructions, translations, and Obsidian improvements.
 
-- better templates
-- stronger examples
-- founder workflows
-- AI agent instructions
-- translations
-- Obsidian-specific improvements
-
-See `CONTRIBUTING.md` for details.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## License
 
-MIT License. See `LICENSE`.
+MIT License. See [LICENSE](LICENSE).
