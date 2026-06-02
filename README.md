@@ -1,10 +1,10 @@
 # FounderOS
 
+🌐 English | [中文说明](docs/zh-CN.md)
+
 FounderOS is an open, Markdown-first operating system for founders. It helps you capture ideas, clarify customer problems, study markets, design products, and turn assumptions into experiments.
 
 It is built for global founders who want a lightweight knowledge base that works well with Obsidian, VS Code, Cursor, GitHub, and AI agents.
-
-For Chinese readers: [中文解释](docs/zh-CN.md).
 
 ## Why FounderOS
 
